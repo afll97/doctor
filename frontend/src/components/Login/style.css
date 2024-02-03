@@ -1,19 +1,29 @@
-.jumbotron{
-    background-color: rgb(197, 216, 22);
-    padding: 5em;
-    border-radius: 4px;
-    border: 2px solid #2bb442;
-    justify-content: center;
-  }
-  .titleContainer{
-    background-color: rgb(224, 235, 238);
-    border-radius: 16px;
-    padding: 0.1em;
-    border: 2px solid #092eaa;
-    justify-content: center;
-    margin-bottom: 1%;
-  }
-  h1{
-    color: rgb(46, 13, 230);
-    text-align: center;
-  }
+.auth-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.auth-form{
+  width: 500px;
+  max-width: 80%;
+  border-radius: 1pt;
+  padding: 30px;
+  border: 1px solid #EEE;
+}
+
+.auth-form .form-control{
+  border-radius: 2px;
+}
+
+.auth-form-content{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.auth-form-forget{
+  font-size: 10px;
+  float: right;
+}

@@ -5,6 +5,7 @@ import "dotenv/config"; //
 import express from "express";  //importa el framework
 import conectar from "./config/database.js";  //importa la conexion de la db
 import routes from "./routes/index.js";
+import cors from "cors"
 
 conectar();//conexion a la DB
 
@@ -19,6 +20,7 @@ dconnection.on("error", function(err){
 });
 */
 const app = express() //se utiliza el framework para crear los endpoints
+app.use(cors())
 //vinculo todas las rutas a express
 routes(app);//se incluyen las rutas
 
