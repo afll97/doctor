@@ -1,0 +1,19 @@
+.jumbotron{
+    background-color: rgb(197, 216, 22);
+    padding: 5em;
+    border-radius: 4px;
+    border: 2px solid #2bb442;
+    justify-content: center;
+  }
+  .titleContainer{
+    background-color: rgb(224, 235, 238);
+    border-radius: 16px;
+    padding: 0.1em;
+    border: 2px solid #092eaa;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+  h1{
+    color: rgb(46, 13, 230);
+    text-align: center;
+  }
